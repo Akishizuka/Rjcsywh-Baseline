@@ -1,0 +1,41 @@
+,CutAddPaste0
+Hyper-parameter,"dataset:IOpsCompetition
+input_channels:1
+kernel_size:4
+stride:1
+final_out_channels:32
+project:2
+dropout:0.45
+features_len:6
+window_size:32
+time_step:32
+num_epoch:300
+beta1:0.9
+beta2:0.99
+lr:0.0001
+weight:0.0005
+drop_last:False
+batch_size:512
+trend_rate:1
+rate:0.6
+cut_rate:9
+detect_nu:0.0015
+threshold_determine:floating"
+seed,4
+Train Time,3:06:31.647539
+UCR Accuracy,0.0
+Affiliation Precision,0.65171
+Affiliation Recall,0.83175
+Affiliation F1,0.73081
+RPA Precision,0.31552
+RPA Recall,0.34397
+RPA F1,0.32913
+PA Precision,0.56618
+PA Recall,0.5573
+PA F1,0.5617
+Point-wise Precision,0.27293
+Point-wise Recall,0.26857
+Point-wise F1,0.27073
+NAB Score (balanced),0.30436
+NAB Score (high precision),0.27529
+NAB Score (high recall),0.31757

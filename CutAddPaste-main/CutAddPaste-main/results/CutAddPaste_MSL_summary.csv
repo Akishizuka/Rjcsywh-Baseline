@@ -1,0 +1,85 @@
+,CutAddPaste0,CutAddPaste1,CutAddPaste2
+Hyper-parameter,"dataset:MSL
+input_channels:1
+kernel_size:4
+stride:1
+final_out_channels:32
+project:2
+dropout:0.45
+features_len:6
+window_size:32
+time_step:32
+num_epoch:300
+beta1:0.9
+beta2:0.99
+lr:0.0001
+weight:0.0005
+drop_last:False
+batch_size:512
+trend_rate:1
+rate:0.6
+cut_rate:9
+detect_nu:0.0015
+threshold_determine:floating","dataset:MSL
+input_channels:1
+kernel_size:4
+stride:1
+final_out_channels:32
+project:2
+dropout:0.45
+features_len:6
+window_size:32
+time_step:32
+num_epoch:300
+beta1:0.9
+beta2:0.99
+lr:0.0001
+weight:0.0005
+drop_last:False
+batch_size:512
+trend_rate:1
+rate:0.6
+cut_rate:9
+detect_nu:0.0015
+threshold_determine:floating","dataset:MSL
+input_channels:1
+kernel_size:4
+stride:1
+final_out_channels:32
+project:2
+dropout:0.45
+features_len:6
+window_size:32
+time_step:32
+num_epoch:300
+beta1:0.9
+beta2:0.99
+lr:0.0001
+weight:0.0005
+drop_last:False
+batch_size:512
+trend_rate:1
+rate:0.6
+cut_rate:9
+detect_nu:0.0015
+threshold_determine:floating"
+seed,4,4,4
+Train Time,0:03:40.266146,0:03:25.690873,0:03:09.616467
+UCR Accuracy,0.0,0.0,0.0
+Affiliation Precision,0.55467,0.55467,0.55467
+Affiliation Recall,0.9895,0.9895,0.9895
+Affiliation F1,0.71086,0.71086,0.71086
+RPA Precision,0.13889,0.13889,0.13889
+RPA Recall,0.41667,0.41667,0.41667
+RPA F1,0.20833,0.20833,0.20833
+PA Precision,0.64368,0.64368,0.64368
+PA Recall,0.60215,0.60215,0.60215
+PA F1,0.62222,0.62222,0.62222
+Point-wise Precision,0.13381,0.13381,0.13381
+Point-wise Recall,0.81004,0.81004,0.81004
+Point-wise F1,0.22967,0.22967,0.22967
+NAB Score (balanced),0.3017,0.3017,0.3017
+NAB Score (high precision),0.19109,0.19109,0.19109
+NAB Score (high recall),0.34002,0.34002,0.34002
+Test ROC-AUC (window),,0.52709,0.52709
+Test PR-AUC (window),,0.14753,

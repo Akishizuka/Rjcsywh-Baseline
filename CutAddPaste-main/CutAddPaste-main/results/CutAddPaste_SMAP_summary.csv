@@ -1,0 +1,105 @@
+,CutAddPaste0,CutAddPaste1,CutAddPaste2,CutAddPaste3
+Hyper-parameter,"dataset:SMAP
+input_channels:1
+kernel_size:4
+stride:1
+final_out_channels:32
+project:2
+dropout:0.45
+features_len:6
+window_size:32
+time_step:32
+num_epoch:300
+beta1:0.9
+beta2:0.99
+lr:0.0001
+weight:0.0005
+drop_last:False
+batch_size:512
+trend_rate:1
+rate:0.6
+cut_rate:9
+detect_nu:0.0015
+threshold_determine:floating","dataset:SMAP
+input_channels:1
+kernel_size:4
+stride:1
+final_out_channels:32
+project:2
+dropout:0.45
+features_len:6
+window_size:32
+time_step:32
+num_epoch:300
+beta1:0.9
+beta2:0.99
+lr:0.0001
+weight:0.0005
+drop_last:False
+batch_size:512
+trend_rate:1
+rate:0.6
+cut_rate:9
+detect_nu:0.0015
+threshold_determine:floating","dataset:SMAP
+input_channels:1
+kernel_size:4
+stride:1
+final_out_channels:32
+project:2
+dropout:0.45
+features_len:6
+window_size:32
+time_step:32
+num_epoch:300
+beta1:0.9
+beta2:0.99
+lr:0.0001
+weight:0.0005
+drop_last:False
+batch_size:512
+trend_rate:1
+rate:0.6
+cut_rate:9
+detect_nu:0.0015
+threshold_determine:floating","dataset:SMAP
+input_channels:1
+kernel_size:4
+stride:1
+final_out_channels:32
+project:2
+dropout:0.45
+features_len:6
+window_size:32
+time_step:32
+num_epoch:300
+beta1:0.9
+beta2:0.99
+lr:0.0001
+weight:0.0005
+drop_last:False
+batch_size:512
+trend_rate:1
+rate:0.6
+cut_rate:9
+detect_nu:0.0015
+threshold_determine:floating"
+seed,4,4,4,4
+Train Time,0:13:52.246166,0:13:57.409433,0:12:59.552506,0:13:13.423729
+UCR Accuracy,0.0,0.0,0.0,0.0
+Affiliation Precision,0.57795,0.57795,0.57795,0.57795
+Affiliation Recall,0.94685,0.94685,0.94685,0.94685
+Affiliation F1,0.71777,0.71777,0.71777,0.71777
+RPA Precision,0.375,0.375,0.375,0.375
+RPA Recall,0.1791,0.1791,0.1791,0.1791
+RPA F1,0.24242,0.24242,0.24242,0.24242
+PA Precision,0.44364,0.44364,0.44364,0.44364
+PA Recall,0.79606,0.79606,0.79606,0.79606
+PA F1,0.56976,0.56976,0.56976,0.56976
+Point-wise Precision,0.1647,0.1647,0.1647,0.1647
+Point-wise Recall,0.58197,0.58197,0.58197,0.58197
+Point-wise F1,0.25674,0.25674,0.25674,0.25674
+NAB Score (balanced),0.15725,0.15725,0.15725,0.15725
+NAB Score (high precision),0.14477,0.14477,0.14477,0.14477
+NAB Score (high recall),0.16453,0.16453,0.16453,0.16453
+Test ROC-AUC (window),,,,0.53114
